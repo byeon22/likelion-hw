@@ -1,0 +1,93 @@
+body{
+    background-color: black;
+}
+
+#left-box{
+    float:left;
+    width:auto; 
+    margin-left:120px; 
+}
+
+#logo{
+    width: 200px;
+    height: auto; 
+    margin-top:120px;
+}
+
+.conent-header{
+    color:white; 
+    margin-bottom:0.3em;
+    font-style:italic;
+    font-size:55px;
+}
+
+.left-contents-flex{
+    font: size 30px;
+    font-style: italic;
+}
+
+.img-box{
+    width:180px; 
+    height: 200px; 
+    border-radius: 0.5em; 
+    margin-left: 10px; 
+    background-color:white; 
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#right-box{
+    width: 20%;
+    float:right; 
+    margin-top:300px; 
+    margin-right:200px;
+    text-align: center; 
+}
+
+#login{
+    float:left;
+    color:white; 
+    font-size:35px; 
+    font-style:italic;
+    text-align: center;
+    margin-left:40%;
+}
+
+
+.edit-id{
+    background: white url(./icon/id.png) no-repeat left 20px center / 20px auto;
+    border-radius: 2em; 
+    width:370px; 
+    height:50px; 
+    margin-bottom: 10px;
+    padding-left: 50px;
+}
+
+.edit-pwd{
+    background: white url(./icon/pwd.png) no-repeat left 10px center / 43px auto;
+    border-radius: 2em; 
+    color:gray; 
+    width:370px; 
+    height:50px; 
+    margin-bottom: 20px;
+    padding-left: 50px;
+}
+
+.button{
+    border-radius: 2em; 
+    font-size:18px; 
+    color:white; 
+    width:250px; 
+    height:50px; 
+    background-color:orange; 
+    margin-top: 20px;
+}
+
+input::placeholder{
+    font-size:18px; 
+    font-style: italic;
+    font-weight:bold;
+}
