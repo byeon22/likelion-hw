@@ -1,0 +1,110 @@
+body{
+    background-color: lightblue;
+    width : 100vw;
+    height : 100vh;
+    display: flex;
+}
+.cont{
+    width : 90%;
+    height : 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Jua', sans-serif;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+.title-container{
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.question-container{   
+    display: none;
+}
+
+.btn{
+    width : 250px;
+    margin : 10px;
+}
+
+.progress-bar{
+    border-radius: 20px;
+}
+
+.score-container{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 5%;
+    display: none;
+}
+
+.result-container{
+    display: none;
+}
+
+#explain{
+    width: 80%;
+    text-align: left;
+}
+
+#result-img{
+    height: 40%;
+    width : auto;
+}
+
+#type{
+    display: none;
+}
+
+#MBTI{
+    font-size: 40px;
+}
+
+#a{
+    border-radius: 20px;
+    display: block;
+    width: 80%;
+    border: 0px;
+}
+
+#b{
+    border-radius: 20px;
+    display: block;
+    width: 80%;
+    border: 0px;
+}
+
+#a:hover, #a:focus{
+    background-color: gray;
+}
+
+#b:hover, #b:focus{
+    background-color: gray;
+}
+
+@keyframes fadeIn{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeOut{
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+@-webkit-keyframes fadeIn{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@-webkit-keyframes fadeOut{
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
